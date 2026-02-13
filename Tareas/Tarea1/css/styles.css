@@ -33,7 +33,7 @@ header{
 }
 
 .Card img {
-    width: 100%;
+    width: 80%;
     height: 200px;
     object-fit: cover;
     display: block;
@@ -41,7 +41,7 @@ header{
 }
 
 .card-body {
-    padding: 10px;
+    padding: 20px;
     background-color: #814848;
     border: 1px solid #ccc;
     text-align: center;
