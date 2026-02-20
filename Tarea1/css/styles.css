@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    background-color: #ff6600; /*rgb() permite expresar el color en css*/
+    color: white;
+    padding: 20px; /* padding aplicado */
+    text-align: center; /*centra directamente el contenido*/
+    border-bottom: 4px solid #e8e8e8; /* borde aplicado */
+    margin-bottom: 20px; /* margen aplicado */
+}
+
+.container{
+    background-color: rgb(206, 147, 104);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* MOSAICO */
+.mosaico {
+    margin-top: 30px;
+    overflow: hidden;         /* Limpia los floats */
+}
+
+/* TARJETAS */
+.card {
+    width: 33.33%;            /* 3 por fila */
+    float: left;              /* Se alinean horizontalmente */
+    padding: 15px;            /* Espacio interno */
+}
+
+/* IMÁGENES */
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    border: 4px solid #000000;   /* Borde */
+}
+
+/* Segunda fila separación */
+.card:nth-child(n+4) {
+    margin-top: 20px;
+}
